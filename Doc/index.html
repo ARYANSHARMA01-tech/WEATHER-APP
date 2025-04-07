@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherPro - Professional Weather Application | Portfolio Project</title>
+    <meta name="description" content="Professional weather application built with Kotlin and RealtimeWeather API">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+                <i class="bi bi-cloud-sun me-2"></i>WeatherPro
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tech">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#installation">Installation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#screenshots">Gallery</a></li>
+                </ul>
+                <div class="ms-3 d-flex">
+                    <a href="https://github.com/ARYANSHARMA01-tech/WEATHER-APP" class="btn btn-outline-light me-2">
+                        <i class="bi bi-github"></i> Source Code
+                    </a>
+                    <a href="#contact" class="btn btn-light">
+                        <i class="bi bi-person-lines-fill"></i> Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-4">WeatherPro</h1>
+                    <p class="lead mb-4">A professional-grade weather application delivering real-time meteorological data with precision and elegant design</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#installation" class="btn btn-primary btn-lg px-4">
+                            <i class="bi bi-download me-2"></i>Get Started
+                        </a>
+                        <a href="#screenshots" class="btn btn-outline-light btn-lg px-4">
+                           View Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image-container">
+                        <!-- <img src="1.jpg" alt="WeatherPro App Preview" class="img-fluid rounded shadow-lg"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Key Features</h2>
+                <p class="section-subtitle">Professional capabilities for accurate weather monitoring</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon bg-primary">
+                            <i class="bi bi-speedometer2"></i>
+                        </div>
+                        <h3>Real-Time Updates</h3>
+                        <p>Precise, up-to-the-minute weather data refreshed continuously</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon bg-success">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h3>Advanced Metrics</h3>
+                        <p>Comprehensive weather statistics including humidity, pressure, and wind patterns</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon bg-info">
+                            <i class="bi bi-geo-alt"></i>
+                        </div>
+                        <h3>Global Coverage</h3>
+                        <p>Accurate forecasts for any location worldwide with detailed mapping</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack -->
+    <section id="tech" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Technology Stack</h2>
+                <p class="section-subtitle">Modern tools for professional results</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-3 col-6">
+                    <div class="tech-card">
+                        <div class="tech-icon bg-primary">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h4>Kotlin</h4>
+                        <p>Primary development language</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="tech-card">
+                        <div class="tech-icon bg-success">
+                            <i class="bi bi-android2"></i>
+                        </div>
+                        <h4>Android Studio</h4>
+                        <p>Development environment</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="tech-card">
+                        <div class="tech-icon bg-warning">
+                            <i class="bi bi-cloud"></i>
+                        </div>
+                        <h4>Firebase</h4>
+                        <p>Backend services</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="tech-card">
+                        <div class="tech-icon bg-danger">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <h4>Gradle</h4>
+                        <p>Build automation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation -->
+    <section id="installation" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="pe-lg-5">
+                        <h2 class="section-title">Installation Guide</h2>
+                        <p class="section-subtitle mb-4">Get started with WeatherPro in minutes</p>
+                        
+                        <div class="installation-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Clone Repository</h4>
+                                    <div class="code-block">
+                                        <code>git clone https://github.com/ARYANSHARMA01-tech/WEATHER-APP.git</code>
+                                        <button class="copy-btn" title="Copy to clipboard">
+                                            <i class="bi bi-clipboard"></i>
+                                        </button>
+                                    </div>
+                                    <div class="code-block mt-2">
+                                        <code>cd WEATHER-APP</code>
+                                        <button class="copy-btn" title="Copy to clipboard">
+                                            <i class="bi bi-clipboard"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Open in Android Studio</h4>
+                                    <p>Import the project into Android Studio</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Configure API</h4>
+                                    <p>Obtain and configure your RealtimeWeather API key</p>
+                                </div>
+                            </div>
+                            
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Build & Run</h4>
+                                    <p>Deploy to your Android device or emulator</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0">
+                    <div class="installation-visual">
+                        <!-- <img src="2.jpg" alt="WeatherPro in Action" class="img-fluid rounded shadow"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots -->
+    <section id="screenshots" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Application Gallery</h2>
+                <p class="section-subtitle">Explore the WeatherPro experience</p>
+            </div>
+            <div class="row justify-content-center g-4">
+                <!-- First Image -->
+                <div class="col-md-6">
+                    <div class="gallery-item shadow-lg rounded overflow-hidden">
+                        <img src="1.jpg" alt="Weather Search Interface" class="img-fluid w-100">
+                        <div class="gallery-caption bg-dark text-white p-3 text-center">
+                            <h5 class="mb-0">Location Search</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Image -->
+                <div class="col-md-6">
+                    <div class="gallery-item shadow-lg rounded overflow-hidden">
+                        <img src="2.jpg" alt="Weather Data Display" class="img-fluid w-100">
+                        <div class="gallery-caption bg-dark text-white p-3 text-center">
+                            <h5 class="mb-0">Weather Details</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">Ready to Connect?</h2>
+                    <p class="lead mb-5">Have questions about WeatherPro or interested in collaboration? Get in touch!</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="mailto:sharmaaryan1603@gmail.com" class="btn btn-primary btn-lg">
+                            <i class="bi bi-envelope me-2"></i>Email Me
+                        </a>
+                        <a href="https://www.linkedin.com/in/aryan-sharma-671817322/" class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-linkedin me-2"></i>LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                        <i class="bi bi-cloud-sun fs-3 me-2"></i>
+                        <h4 class="mb-0">WeatherPro</h4>
+                    </div>
+                    <p class="mb-0 mt-2">Professional weather solutions for modern users</p>
+                </div>
+                <div class="col-md-6 text-md-end mt-3 mt-md-0">
+                    <div class="social-links">
+                        <a href="https://github.com/ARYANSHARMA01-tech" class="text-white me-3"><i class="bi bi-github"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/aryan-sharma-671817322/" class="text-white"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <p class="mb-0 mt-2">© 2023 WeatherPro. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
